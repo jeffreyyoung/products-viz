@@ -1,0 +1,13 @@
+
+.product {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+span {
+  font-size: 25px;
+}
+img {
+  border-radius: 10px;
+  margin-left: 5px;
+}
