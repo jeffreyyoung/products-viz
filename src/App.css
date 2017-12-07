@@ -1,13 +1,23 @@
 
+.wrapper {
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
 .product {
   display: flex;
   padding: 5px;
   align-items: center;
 }
-span {
+.large-text {
   font-size: 25px;
 }
 img {
   border-radius: 10px;
   margin-left: 5px;
+  margin-right: 5px;
+}
+
+.small-text {
+  font-size: 12px;
 }
