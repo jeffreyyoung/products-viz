@@ -20,7 +20,9 @@ export default class DataManager {
   
   onChange(data) {
     this.data = data;
-    this.onChangeProp(data);
+    if (data) {
+      this.onChangeProp(data);
+    }
   }
   
   startUrlChecker() {

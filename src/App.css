@@ -16,8 +16,9 @@ img {
   border-radius: 10px;
   margin-left: 5px;
   margin-right: 5px;
+  max-height: 200px;
 }
 
 .small-text {
-  font-size: 12px;
+  font-size: 14px;
 }
